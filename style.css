@@ -19,35 +19,40 @@ body{
 }
 
 form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
+  padding: 3px;
+  font-size: 15px;
   border: 1px solid grey;
   float: left;
   width: 80%;
-  background: #0a0404;
+  background: #f1f1f1;
+  color:rgb(21, 12, 12)
 }
 
 form.example button {
   float: left;
   width: 20%;
-  padding: 10px;
+  padding: 3px;
   background: #2196F3;
   color: white;
-  font-size: 17px;
+  font-size: 15px;
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
 }
-
 form.example button:hover {
   background: #0b7dda;
 }
-
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
+h8 {
+color:rgb(21, 12, 12)
+}
+h7 {
+  color: #333333
+  }
 .footer {
   position: fixed;
   left: 0;
